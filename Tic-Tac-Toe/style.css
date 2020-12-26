@@ -1,0 +1,58 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+.players{
+    color: white;
+
+}
+.player2{
+    float: right;
+}
+.board{
+    margin-left: 425px;
+    margin-right: 425px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: white;
+}
+
+.container{
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+.block {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 250%;
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+  }
+  p{
+      font-size: 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  #turn{
+    font-size: 30px;
+    color: white;
+
+  }
+  center {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
