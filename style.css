@@ -50,9 +50,27 @@ h1{
     color: white;
 
   }
-  center {
+  center.buttons {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+  }
+  .grid {
+    display: table;
+    border-spacing: 10px;
+    background-color: white;
+  }
+  .row {
+    display: table-row;
+  }
+  .cell {
+    width: 70px;
+    height: 70px;
+    padding: 0%;
+    background: grey;
+    display: table-cell;
+  }
+  .row div {
+    background: black;
   }
