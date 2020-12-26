@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+</head>
+<body>
+    <link rel="stylesheet" href="./style.css">
+    <div class="players">
+        <p style="text-align:left;">
+            Player X Score : <span id="Player1">0</span>
+            <span style="float:right;">
+               Player O Score: <span id="Player2">0</span>
+            </span>
+        </p>
+    </div>
+<div class="container">
+    <h1>Tic-Tac-Toe</h1>
+    <br><br>
+    <div class="board">
+    <button type="button" class="btn btn-dark block" id="click11">.</button>
+    <button type="button" class="btn btn-dark block" id="click12">.</button>
+    <button type="button" class="btn btn-dark block" id="click13">.</button><br>
+    <button type="button" class="btn btn-dark block" id="click21">.</button>
+    <button type="button" class="btn btn-dark block" id="click22">.</button>
+    <button type="button" class="btn btn-dark block" id="click23">.</button><br>
+    <button type="button" class="btn btn-dark block" id="click31">.</button>
+    <button type="button" class="btn btn-dark block" id="click32">.</button>
+    <button type="button" class="btn btn-dark block" id="click33">.</button>
+</div>
+</div>
+<br><br>
+<div class="buttons">
+    <center>
+        <button type="button" style="float:left;" class="btn btn-primary" id="scoreReset" >Reset Score</button>
+            <span id='turn'>Player X plays now!</span>
+        <span style="float:right;">
+            <button type="button" class="btn btn-primary" id="play_again" >Play Again</button>
+        </span>
+    </center>
+
+
+</div>
+</body>
+</html>
+<script type="text/javascript" src="./game.js"></script>
