@@ -28,7 +28,7 @@ var o = 0;
 
 function check(b1,b2,b3){
   if (b1.innerHTML==b2.innerHTML && b2.innerHTML==b3.innerHTML && b3.innerHTML!='.'){
-    setTimeout(() => { alert(b1.innerHTML+' Wins') }, 300);
+    setTimeout(() => { alert("Player "+b1.innerHTML+' Wins') }, 300);
     setTimeout(() => {reset()}, 300);
     if (b1.innerHTML=='X'){x+=1;}
     else {o+=1;}
